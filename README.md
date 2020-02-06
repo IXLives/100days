@@ -4,3 +4,6 @@
 # Day 1
 React Fundamentals
 Setup basic React page with index.html (with links to some projects), App.js, Styles.css and scaffolding for prettier, eslint, and git.
+
+# Day 2
+Setup material-ui, refactored everything. Yeah this took the whole hour >.>
