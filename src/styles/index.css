@@ -2,6 +2,14 @@
   font-family: "Roboto", sans-serif;
 }
 
+.whole-page {
+  padding: 25px;
+  margin: 25px;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-card {
   max-width: 200px;
   min-width: 150px;
@@ -9,4 +17,9 @@
   padding: 15px;
   align-items: center;
   justify-content: center;
+}
+
+.bio-card-img {
+  max-width: 100px;
+  max-height: 100px;
 }
