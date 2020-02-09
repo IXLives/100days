@@ -7,3 +7,9 @@ Setup basic React page with index.html (with links to some projects), App.js, St
 
 # Day 2
 Setup material-ui, refactored everything. Yeah this took the whole hour >.>
+
+# Day 3
+Added a bio section
+
+# Day 4
+Styling stuff
