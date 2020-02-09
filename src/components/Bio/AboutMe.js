@@ -17,22 +17,20 @@ import {
 
 const AboutMe = () => {
   return (
-    <Grid>
-      <Card>
-        <CardActionArea>
-          <CardMedia
-            component="img"
-            className="bio-card-img"
-            alt="bio-card-img"
-            image={sideye}
-          />
-          <CardContent>
-            <h2>Ian Bryant</h2>
-            <p>Developing Developer -- 100 Days of Code</p>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-    </Grid>
+    <Card>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          className="bio-card-img"
+          alt="bio-card-img"
+          image={sideye}
+        />
+        <CardContent>
+          <h2>Ian Bryant</h2>
+          <p>Developing Developer -- 100 Days of Code</p>
+        </CardContent>
+      </CardActionArea>
+    </Card>
   );
 };
 

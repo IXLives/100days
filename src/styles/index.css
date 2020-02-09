@@ -5,9 +5,25 @@
 .whole-page {
   padding: 25px;
   margin: 25px;
+  display: flex;
   flex-flow: column wrap;
   align-items: center;
+  justify-content: space-between;
+}
+
+.bio-container {
+  align-items: center;
   justify-content: center;
+}
+
+.bio-card-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.project-container {
+  margin: 25px;
+  padding: 25px;
 }
 
 .project-card {
@@ -17,9 +33,4 @@
   padding: 15px;
   align-items: center;
   justify-content: center;
-}
-
-.bio-card-img {
-  max-width: 100px;
-  max-height: 100px;
 }

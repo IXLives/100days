@@ -9,7 +9,7 @@ import AboutMe from "./AboutMe";
 
 const BioContainer = () => {
   return (
-    <Paper elevation="5">
+    <Paper elevation="5" className="bio-container">
       <AboutMe />
     </Paper>
   );

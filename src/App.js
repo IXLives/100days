@@ -16,11 +16,9 @@ import { Container, Paper } from "@material-ui/core";
 const App = () => {
   return (
     <Paper className="whole-page" elevation="2" variant="outlined">
-      <Container>
-        <h1>100 Days of Code - React Fundamentals</h1>
-        <BioContainer />
-        <ProjectContainer />
-      </Container>
+      <h1>100 Days of Code - React Fundamentals</h1>
+      <BioContainer />
+      <ProjectContainer />
     </Paper>
   );
 };

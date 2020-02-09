@@ -9,11 +9,11 @@ import propman from "../../assets/propman.jpg";
 import Project from "./Project";
 
 // ===== Style Imports ===== \\
-import { Grid } from "@material-ui/core";
+import { Grid, Paper } from "@material-ui/core";
 
 const ProjectContainer = () => {
   return (
-    <div>
+    <Paper className="project-container">
       <Grid
         container
         direction="row"
@@ -38,7 +38,7 @@ const ProjectContainer = () => {
           />
         </Grid>
       </Grid>
-    </div>
+    </Paper>
   );
 };
 
