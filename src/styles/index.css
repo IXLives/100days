@@ -2,9 +2,11 @@
   font-family: "Roboto", sans-serif;
 }
 
-.whole-page {
+#whole-page {
+  height: 100% auto;
   padding: 25px;
   margin: 25px;
+  background-color: gray;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -33,4 +35,12 @@
   padding: 15px;
   align-items: center;
   justify-content: center;
+}
+
+.search-params {
+  padding: 25px;
+}
+
+.search-form {
+  padding: 25px;
 }
